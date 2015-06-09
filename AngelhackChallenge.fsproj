@@ -56,7 +56,6 @@
   <ItemGroup>
     <Compile Include="Program.fs" />
     <None Include="App.config" />
-    <Content Include="Readme.txt" />
     <Content Include="hello.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -64,6 +63,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Copying.txt" />
+    <None Include="Readme.md" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
